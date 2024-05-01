@@ -1,0 +1,105 @@
+body{
+    font-family:Roboto, sans-serif;
+}
+.container{
+    width: 100%;
+    margin: 50px auto;
+    display: block;
+    max-width: 1200px;
+}
+.product-wrapper{
+    border: 1px solid #956D84;
+    width:340px;
+    float:left;
+    margin-right:15px;
+}
+.product-wrapper .wrap-img{
+    background: #FBF9FA;
+    padding:0 10px 10px;
+}
+.product-wrapper .sale{
+    text-align: center;
+    font-size: 15px;
+    color: #b60812;
+    border: 1px dashed #E72222;
+    width: 56px;
+    height: 56px;
+    border-radius: 50%;
+    padding: 18px 0px;
+    box-sizing: border-box;
+    float: left;
+    margin-top: 7px;
+    margin-left: 15px;
+}
+.product-wrapper .btn-favorite{
+    float: right;
+    margin-top: 30px;
+    margin-right: 24px;
+    cursor: pointer;
+}
+.product-wrapper .img-box{
+    text-align: center;
+    width: 100%;
+    clear: both;
+}
+.product-wrapper .sale-active{
+    color: #956D84;
+    background: rgba(157, 117, 140, 0.39);
+    text-align: center;
+    width: 56px;
+    padding: 20px 0;
+    border-radius: 50%;
+}
+.product-wrapper .add-to-cart{
+    background: #956D84;
+    box-shadow: inset 0px 5px 5px rgba(0, 0, 0, 0.15);
+    border-radius: 7px;
+    padding:20px;
+    text-align:Center;
+    color:#fff;
+    font-size:18px;
+    font-weight:600;
+    margin:15px auto;
+    width:280px;
+    cursor:pointer;
+}
+.product-wrapper .fast-order{
+    color: #828282;
+    display:table;
+    margin:0px auto;
+    margin-bottom:15px;
+    border-bottom:1px solid #956D84;
+    cursor:pointer;
+}
+.product-wrapper .wrap-btns{
+    clear:both;
+    padding-top:10px;
+}
+.product-wrapper .name-prod{
+    float: left;
+    margin: 10px;
+    font-size: 18px;
+    font-weight: 600;
+    padding-top: 10px;
+    max-width: 50%;
+}
+.product-wrapper .price{
+    float: right;
+    margin: 10px;
+    font-size: 20px;
+    margin-bottom: 0;
+}
+.product-wrapper .old-price{
+    color: #BDBDBD;
+    font-weight: 100;
+}
+.product-wrapper .new-price{
+    color: #956D84;
+    font-weight: 600;
+}
+
+.section-name{
+    font-size:30px;
+    font-weight:600;
+    text-align:center;
+}
